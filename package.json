@@ -39,7 +39,7 @@
     "coveralls": "istanbul cover ./node_modules/exam/exam.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "dependencies": {
-    "lighter": "lighter",
+    "lighter": "latest",
     "shellify": "0.0.3"
   },
   "devDependencies": {
